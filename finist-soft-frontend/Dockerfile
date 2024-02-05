@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:alpine
 
 # Указываем рабочую директорию в контейнере
 WORKDIR /app
